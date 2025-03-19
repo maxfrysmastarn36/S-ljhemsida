@@ -98,3 +98,12 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+.cart-content{
+    background: white; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    position: fixed; 
+    top: 50px; 
+    right: 20px; 
+    width: 300px;
+}
