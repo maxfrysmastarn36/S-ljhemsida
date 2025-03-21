@@ -15,7 +15,7 @@ body {
 .header h1 {
     font-size: 24px;
     margin: 0;
-    padding-right: 140vh;
+    padding-right: 80vw;
 }
 .search-bar {
     padding: 5px;
@@ -30,6 +30,7 @@ body {
 }
 .nav {
     display: flex;
+    flex-wrap: wrap;
     background: #4fe3e3;
 }
 .nav a {
@@ -47,6 +48,15 @@ body {
     background-color: #00b7ff;
     border-radius: 10px;
 }
+.cart-content{
+    background: white; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    position: fixed; 
+    top: 50px; 
+    right: 20px; 
+    width: 300px;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -59,19 +69,19 @@ body {
     padding: 10px;
     text-align: center;
     width: 300px;
-    margin-left: 5vh;
-    margin-right: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
     border-radius: 10px;
 }
 
 .price{
     display: flex;
-    margin-left: 5vh;
+    margin-left: 2vw;
     flex-direction: row;   
 }
 
 .price2{
-    margin-right: 20vh;
+    margin-right: 3vw;
     font-size: 20px;
 }
 .product img {
@@ -81,7 +91,7 @@ body {
 .cart-button {
     background-color: green;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 30px;
     margin-top: 10px;
     border: none;
     cursor: pointer;
@@ -97,13 +107,4 @@ body {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
-}
-.cart-content{
-    background: white; 
-    padding: 15px; 
-    border: 1px solid #ccc; 
-    position: fixed; 
-    top: 50px; 
-    right: 20px; 
-    width: 300px;
 }
