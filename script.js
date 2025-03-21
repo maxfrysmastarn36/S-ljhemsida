@@ -42,9 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
         Object.values(productamount).forEach(function(item) {
             const newproduct = document.createElement("li")
             newproduct.textContent = `${item.name} x${item.quantity}`;
+            newproduct.style.gridColumn = "1/2";
 
             const remove = document.createElement("button");
             remove.textContent = "Ta Bort";
+            remove.style.gridColumn = "2/3";
             remove.addEventListener("click", () => {
                 removefromcart(item.name);
             });
