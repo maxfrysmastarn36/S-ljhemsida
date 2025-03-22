@@ -29,7 +29,8 @@ body {
     max-height: 35px;
 }
 .product-list{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
 }
 .nav {
     display: flex;
@@ -39,7 +40,6 @@ body {
 .nav a {
     flex: 1;
     text-align: center;
-    padding: 10px;
     font-size: 24px;
     font-weight: bold;
     background-color: #4fe3e3;
@@ -47,11 +47,11 @@ body {
     text-decoration: none;
     color: inherit;
 }
-.nav div:hover {
+.nav a:hover {
     background-color: #00b7ff;
     border-radius: 10px;
 }
-.cart-content{
+.cart-content {
     background: white; 
     padding: 15px; 
     border: 1px solid #ccc; 
@@ -66,6 +66,10 @@ body {
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+}
+.menu {
+    text-align: center;
+    padding: 5vw;
 }
 .product {
     background: #fff;
@@ -113,4 +117,7 @@ body {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
+}
+.homepic{
+    width: 60%;
 }
